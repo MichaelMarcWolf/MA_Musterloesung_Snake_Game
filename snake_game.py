@@ -7,6 +7,8 @@ SCREEN_WIDTH, SCREEN_HEIGHT = 600, 400
 GRID_SIZE = 20  
 SNAKE_SPEED = 10  
 
+# Test for Git and GitHub
+
 # Define the main SnakeGame class
 class SnakeGame:
     def __init__(self):
