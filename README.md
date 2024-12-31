@@ -20,7 +20,8 @@ A simple, **modular** Snake game in Python using **Pygame**.
    pip install -r requirements.txt    
 
 ## Run
-python main.py
+```bash 
+python main.py 
 Use arrow keys to move the snake, avoid collisions, and eat food.
 
 ## Project Structure
