@@ -1,13 +1,9 @@
-import pygame    # type: ignore
-import numpy as np    # type: ignore
+import pygame    
+import numpy as np    
 import random  
 from collections import deque  
 
-SCREEN_WIDTH, SCREEN_HEIGHT = 600, 400  
-GRID_SIZE = 20  
-SNAKE_SPEED = 10  
-
-# Test for Git and GitHub
+from snake_game.utils import (SCREEN_WIDTH, SCREEN_HEIGHT, GRID_SIZE, SNAKE_SPEED)
 
 # Define the main SnakeGame class
 class SnakeGame:
@@ -104,9 +100,3 @@ class SnakeGame:
             self.clock.tick(SNAKE_SPEED)  
 
         pygame.quit()  # Quit pygame when the game loop ends
-
-
-# Entry point of the script
-if __name__ == "__main__":
-    game = SnakeGame()  
-    game.run()  
