@@ -15,7 +15,7 @@ A simple, **modular** Snake game in Python using **Pygame**.
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-3. **Install dependencies:
+3. **Install** dependencies:
    ```bash
    pip install -r requirements.txt    
 
@@ -24,6 +24,7 @@ python main.py
 Use arrow keys to move the snake, avoid collisions, and eat food.
 
 ## Project Structure
+```bash
 .
 ├── README.md
 ├── LICENSE
