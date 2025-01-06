@@ -13,10 +13,10 @@ Dies ist die Musterlösung für ein einfaches, gut strukturiertes Snake-Spiel in
 1. **Clone** das Repository auf Deinen lokalen Rechner
 2. **Installiere** Docker, falls notwendig
 3. **Build** das Docker Image mit `docker build -t snake-game .` 
-4. **Starte** den Docker Container mit `docker run -it snake-game`
+
 
 ## Ausführung
-python main.py 
+**Starte** den Docker Container mit `docker run -it snake-game`
 
 Benutze die Pfeile auf der Tastatur, um die Schlange zu bewegen, vermeide Kollisionen und esse Nahrung.
 
