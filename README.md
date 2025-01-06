@@ -33,4 +33,4 @@ Use arrow keys to move the snake, avoid collisions, and eat food.
 ├── main.py
 └── snake_game/
     ├── utils.py
-    └── snake_game.py
+    └── game.py
