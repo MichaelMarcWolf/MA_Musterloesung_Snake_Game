@@ -12,8 +12,8 @@ Dies ist die Musterlösung für ein einfaches, gut strukturiertes Snake-Spiel in
 ## Installation
 1. **Clone** das Repository auf Deinen lokalen Rechner
 2. **Installiere** Docker, falls notwendig
-3. **Build** das Docker Image mit ```bash docker build -t snake-game . 
-4. **Starte** den Docker Container mit ```bash **docker run -it snake-game
+3. **Build** das Docker Image mit `docker build -t snake-game .` 
+4. **Starte** den Docker Container mit `docker run -it snake-game`
 
 ## Ausführung
 python main.py 
