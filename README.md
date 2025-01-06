@@ -2,29 +2,25 @@
 
 # Python Snake Game
 
-A simple, **modular** Snake game in Python using **Pygame**.
+Dies ist die Musterlösung für ein einfaches, gut strukturiertes Snake-Spiel in Python als Docker-Applikation.
 
 ## Features
-- **Modular Structure:** `snake_game/` holds core logic and utilities.
-- **Customizable:** Screen size, cell size, and speed are easily adjustable.
-- **Extendable:** Utility functions in `utils.py`; `main.py` as the game entry point.
+- **Professionelle Struktur:** Projekt-Struktur gemäss den erlernten Konztepten.
+- **Anpassbarkeit des Spiels:** Screengrösse, Zellengrösse und Geschwindigkeit können einfach angepasst werden.
+- **Skalierbarkeit:** Konstanten sind in `utils.py`; `main.py` führt das Spiel aus.
 
 ## Installation
-1. **Clone** this repo or download the source.
-2. **Create** & **Activate** a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-3. **Install** dependencies:
-   ```bash
-   pip install -r requirements.txt    
+1. **Clone** das Repository auf Deinen lokalen Rechner
+2. **Installiere** Docker, falls notwendig
+3. **Build** das Docker Image mit ```bash docker build -t snake-game . 
+4. **Starte** den Docker Container mit ```bash **docker run -it snake-game
 
-## Run
+## Ausführung
 python main.py 
 
-Use arrow keys to move the snake, avoid collisions, and eat food.
+Benutze die Pfeile auf der Tastatur, um die Schlange zu bewegen, vermeide Kollisionen und esse Nahrung.
 
-## Project Structure
+## Projektstruktur
 ```bash
 .
 ├── README.md
