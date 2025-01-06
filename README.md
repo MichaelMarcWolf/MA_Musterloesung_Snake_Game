@@ -16,7 +16,7 @@ Dies ist die Musterlösung für ein einfaches, gut strukturiertes Snake-Spiel in
 
 
 ## Ausführung
-**Starte** den Docker Container mit `docker run -it snake-game`
+Starte den Docker Container mit `docker run -it snake-game`.
 
 Benutze die Pfeile auf der Tastatur, um die Schlange zu bewegen, vermeide Kollisionen und esse Nahrung.
 
